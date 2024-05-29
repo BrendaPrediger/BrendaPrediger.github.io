@@ -1,21 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedindo aaaaaaaah</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div id="container">
-        <p>Quer namorar comigo?</p>
-        <button id="yes" class="yes">Sim</button>
-        <button id="no" class="no">Não</button>
-    </div>
+    <header>
+        <div class="container">
+            <h1>Brenda Prediger</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <script src="script.js"></script>
+    <section id="sobre" class="section">
+        <div class="container">
+            <section id="sobre" class="section">
+                <div class="container">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá!</p>
+                        <p> Meu nome é Brenda Prediger. Busco sempre novos desafios e oportunidades para crescer profissionalmente e pessoalmente.</p>
+                    <p>Se você está procurando alguém comprometida, que valoriza a excelência e está sempre pronta para enfrentar novos desafios, adoraria conversar e explorar como podemos trabalhar juntos. Vamos transformar suas ideias em realidade!</p>
+                </div>
+            </section>            
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-item">
+                    <img src="img/foto1.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <img src="img/foto2.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <img src="img/foto3.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <h3>Projeto 1</h3>
+                    <p>O objetivo desse projeto é manter cadastro de usuários; (manter significa cadastrar, editar, excluir e visualizar); manter cadastro de produtos e manter cadastro de imóveis.
+                        </p>
+                </div>
+                <div class="projeto-item">
+                    <img src="img/foto5.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <h3>Projeto 2</h3>
+                    <p>Este projeto foi feito no Java e o objetivo era cadastrar, editar, excluir e visualizar, através de telas, nomes de cidades.</p>
+                </div>
+                <div class="projeto-item">
+                    <img src="img/foto6.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <img src="img/foto7.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <img src="img/foto8.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <img src="img/foto9.jpg" alt="Imagem do Projeto 1" class="projeto-imagem">
+                    <h3>Projeto 3</h3>
+                    <p>Este projeto usa HTML/CSS e o objetivo é ser um portfólio que mostra alguns dos projetos feitos por mim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Para mais informações, você pode entrar em contato através dos seguintes meios:</p>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> brenda.prediger@universo.univates.br</li>
+                <li><strong>Celular:</strong> (51) 98168-3277</li>
+                <li><strong>Endereço:</strong> Imigrante - RS, CEP 95885-000</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024, Brenda Prediger. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
-
 </html>
